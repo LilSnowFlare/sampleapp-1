@@ -1,0 +1,48 @@
+/*
+  FontAwesome icon font: FontAwesome
+  Creation date: 09/03/2024 12:05
+*/
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("./FontAwesome.eot");
+  src: url("./FontAwesome.eot?#iefix") format("embedded-opentype"),
+       url("./FontAwesome.woff") format("woff"),
+       url("./FontAwesome.ttf") format("truetype"),
+       url("./FontAwesome.svg#FontAwesome") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "FontAwesome";
+    src: url("./FontAwesome.svg#FontAwesome") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: FontAwesome; /* Changed to FontAwesome */
+  font-style: normal;
+}
+
+.flaticon-mobile-app:before { content: "\f10b"; } /* Example icon from FontAwesome */
+.flaticon-web:before { content: "\f0ac"; } /* Example icon from FontAwesome */
+.flaticon-programming:before { content: "\f121"; } /* Example icon from FontAwesome */
+.flaticon-digital-marketing:before { content: "\f0ac"; } /* FontAwesome icon for digital marketing */
+.flaticon-presentation:before { content: "\f007"; } /* FontAwesome icon for presentation */
+.flaticon-group:before { content: "\f0c0"; } /* FontAwesome icon for group */
+.flaticon-car:before { content: "\f1b9"; } /* FontAwesome icon for car */
+.flaticon-award:before { content: "\f091"; } /* FontAwesome icon for award */
+.flaticon-search:before { content: "\f002"; } /* FontAwesome icon for search */
+.flaticon-view:before { content: "\f06e"; } /* FontAwesome icon for view */
+.flaticon-paper-plane:before { content: "\f1d8"; } /* FontAwesome icon for paper plane */
+.flaticon-responsive:before { content: "\f065"; } /* FontAwesome icon for responsive */
+.flaticon-repair-expert:before { content: "\f0ad"; } /* FontAwesome icon for repair expert */
+.flaticon-investment:before { content: "\f07a"; } /* FontAwesome icon for investment */
+.flaticon-bars:before { content: "\f0c9"; } /* FontAwesome icon for bars */
+.flaticon-conversation:before { content: "\f086"; } /* FontAwesome icon for conversation */
+.flaticon-checklist:before { content: "\f0ae"; } /* FontAwesome icon for checklist */
+.flaticon-alarm-clock:before { content: "\f017"; } /* FontAwesome icon for alarm clock */
+
